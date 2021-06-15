@@ -21,7 +21,7 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-    appRoot: reactapp
+    appRoot: /reactapp
   - frontend:
       phases:
         preBuild:
@@ -37,4 +37,4 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-    appRoot: my-gatsby-site
+    appRoot: /my-gatsby-site
