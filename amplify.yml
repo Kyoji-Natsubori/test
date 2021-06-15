@@ -1,6 +1,6 @@
 version: 1
 applications:
-    - backend:
+  - backend:
       phases:
         build:
           commands:
@@ -38,4 +38,3 @@ applications:
         paths:
           - node_modules/**/*
     appRoot: my-gatsby-site
-    
